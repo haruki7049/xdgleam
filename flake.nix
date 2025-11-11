@@ -52,6 +52,13 @@
             # Gleam
             programs.gleam.enable = true;
 
+            # TOML
+            programs.taplo.enable = true;
+            settings.formatter.taplo.excludes = [
+              "manifest.toml"
+              "*/manifest.toml"
+            ];
+
             # GitHub Actions
             programs.actionlint.enable = true;
 
