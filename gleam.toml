@@ -1,5 +1,5 @@
 name = "xdgleam"
-version = "1.0.0"
+version = "1.1.1"
 description = "A library to read XDG Base Directory in pure Gleam-lang"
 licenses = ["Apache-2.0"]
 repository = { type = "github", user = "haruki7049", repo = "xdgleam" }
